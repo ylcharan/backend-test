@@ -1,0 +1,19 @@
+GET http://localhost:3001
+
+
+### 
+GET http://localhost:3001/dashboard
+
+###
+GET http://localhost:3001/api/data
+
+###
+POST http://localhost:3001/api/data
+Content-Type: application/json
+
+{
+    "name": "Charan"
+}
+
+###
+DELETE  http://localhost:3001/api/data
